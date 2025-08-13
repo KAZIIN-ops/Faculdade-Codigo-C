@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main (){
-  //Declarei as variaveis que serao atribuidos os dados.
   
   //Variaveis que dritribuirao os dados.
   int populacao ,pontoTuristico ;
@@ -82,5 +81,6 @@ int main (){
 
 
 }
+
 
 
