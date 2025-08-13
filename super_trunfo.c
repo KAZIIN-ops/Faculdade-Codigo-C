@@ -20,7 +20,7 @@ int main (){
     scanf("%s", codigoCarta);
 
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade); 
+    scanf("%s[^\n]", nomeCidade); 
 
     printf("Populacao: ");
     scanf("%d", &populacao);
@@ -43,7 +43,7 @@ int main (){
     scanf("%s", codigoCarta2);
 
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade2);
+    scanf(" %s[^\n]", nomeCidade2);
 
     printf("Populacao: ");
     scanf("%d", &populacao2);
@@ -54,7 +54,7 @@ int main (){
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib2);
 
-    printf("Número de Pontos Turísticos: ");
+    printf("Número de Pontos Turisticos: ");
     scanf("%d", &pontoTuristico2);
 
     // Exibição dos dados
@@ -81,6 +81,7 @@ int main (){
 
 
 }
+
 
 
 
